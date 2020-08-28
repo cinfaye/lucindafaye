@@ -9,7 +9,7 @@
             //php practice stuff, making variables
             $name = "Cindy M.";
             $age = 26;
-            $icecream = "Chocolate Chip Cookie Dough";
+            $favorite = "Bob's Burgers";
             $male = false;
             $imageFile = "img/bob-grill.jpg"  
         ?>
@@ -18,7 +18,9 @@
         <?php
             // using php to print in html
             echo "<p>Hello World, this is my PHP page!</p>";
-            print("<p>My name is $name I am $age years old. My facorite icecream is $icecream</p>")
+            print("<p>My name is $name I am $age years old and I love $favorite.</p>");
+            print('<p>I am using variables: $name, $age, and $favorite</p>');
+            print("<img src = '$imageFile' height = '250'>");
         ?>
     </body>
 </html>
